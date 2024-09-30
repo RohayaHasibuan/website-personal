@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>tugas3 with bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+      
+     </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: burlywood;">
+        <a class="navbar-brand" href="#">cakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">cakes item</a>
+                <a class="dropdown-item" href="#">cakes action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Cakes Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <section>
+        <div class="container">
+            <div class="row">
+              <div class="col align-self-center">
+                <h1 style="font-family: 'Lobster',cursive;">Hai!<br/>Selamat Datang di Website @hayahasibuan Cake Lover</h1>
+                    <p class="mt-3 mb-4">
+                        Belajar pemrograman web mulai dari HTML, CSS, JavaScript, dan PHP bersama @hayahasibuan</p>
+                        <a class="btn btn-dark" href="https://www.instagram.com/reel/C5cgM1ER4Yf/?utm_source=ig_web_copy_link" role="button">mulai sekarang</a>
+                </div>
+                <div class="col-sm">
+                    <img src="gambar/choco cake screenshot 2024-09-29 115024.png">
+                </div>
+
+              </div>
+              <div class="row" >
+              <div class="card" style="width: 18rem; margin: 24px; border:3px solid rgb(101, 204, 220)" >
+                <img src="gambar/strawberry cake screenshot 2024-09-29 113036.png" class="card-img-top" alt="Spidey">
+                <div class="card-body">
+                  <h5 class="card-title">Vintage Cake☺️ By @chaeeeri</h5>
+                  <p class="card-text">You can take up to 6 lectures starting today, and the remaining lectures will be uploaded on October 1st! 
+                    Be sure to check out the missions for each lecture! I look forward to the vintage cakes you make✨</p>
+                  <a href="https://www.instagram.com/p/CUMGtiNPQcH/?utm_source=ig_web_copy_link" class="btn btn-danger">See More</a>
+                </div>
+              </div>
+
+              <div class="row" >
+                <div class="card" style="width: 18rem; margin: 24px; border:3px solid rgb(156, 174, 237)" >
+                  <img src="gambar/green cake cake screenshot 2024-09-29 114208.png" class="card-img-top" alt="Spidey">
+                  <div class="card-body">
+                    <h5 class="card-title">Matcha Tiramisu🌱🍵 By @nahlahrsl</h5>
+                    <p class="card-text">Creamy, rich, and bursting with flavour, this is Matcha Tiramisu with layers of matcha-soaked ladyfingers, combined with light airy mascarpone cream. </p>
+                    <a href="https://www.instagram.com/reel/C3fLBwePUIA/?utm_source=ig_web_copy_link" class="btn btn-danger">See More</a>
+                  </div>
+                </div>
+
+              <div class="card" style="width: 18rem;margin: 24px;  border:3px solid rgb(157, 231, 175)">
+                <img src="gambar/purple cake screenshot 2024-09-29 112842.png" class="card-img-top" alt="Spidey">
+                <div class="card-body">
+                  <h5 class="card-title">Lavender Cheesecake vegan💜 By @vegansweetss</h5>
+                  <p class="card-text">Indulge in the soothing flavors of a lavender-infused vegan cheesecake, where every bite is a journey to serenity and deliciousness. 💜🍰 Embrace the beauty of plant-based desserts and nourish your body with nature’s goodness. Treat yourself to a slice of tranquility today. 💫 
+                  </p>
+                  <a href="https://www.instagram.com/p/C3u0NKlI76H/?utm_source=ig_web_copy_link" class="btn btn-danger">See More</a>
+                </div>
+              
+              </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.js"></script>
+    
+</body>
+</html>
